@@ -1,0 +1,26 @@
+{
+  "name": "timerjs",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Timer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ya7yaq/Timerjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ya7yaq/Timerjs/issues"
+  },
+  "homepage": "https://github.com/ya7yaq/Timerjs#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.18.10"
+  }
+}
