@@ -136,3 +136,17 @@ input {
 #loader.loader {
     display: none;
 }
+
+#cardtimer {
+    font-size: 1em;
+    max-width: 100%;
+    font-weight: 100;
+    margin: 1rem auto;
+    color: white;
+    border: 0.1rem solid #b1cdf1;
+    padding: 0.3em;
+    width: 28rem;
+    border-radius: 0.8rem;
+    text-shadow: 0 0 10px #0eea9d;
+    box-shadow: 2px 6px 6px #000000bd;
+}
