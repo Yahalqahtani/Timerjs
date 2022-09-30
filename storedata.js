@@ -18,6 +18,7 @@ storeTimer = p => {
     }
 
     document.querySelector('form').reset();
+    location.reload();
 };
 
 document.getElementById('save').addEventListener('click', storeTimer);

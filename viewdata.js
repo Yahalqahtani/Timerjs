@@ -27,25 +27,44 @@ function datecal(timer) {
 
 //
 
-function template(timer) {
+function template(timer, i) {
     return `
     <div id="cardtimer" class="timer" >
     <h2>${timer.title}</h2>
     <h3>${datecal(timer.date)}</h3>
-       
+   <a> <img id='icond' src="./icons/remove.png" width="30" height="30" onclick='dd()'}'></a>
     </div>
         
     `;
 }
 function printtoview() {
     document.getElementById('aaaa').innerHTML = `
-    <div >
+    
        
     ${showdata.map(template).join('')} 
     
-    </div>
+   
     
     `;
 }
+// function icondel(timer, i) {
+//     let r = document.getElementById('aaaa');
+//     r.addEventListener('click', () => {
+//         console.log(timer[i]);
+//     });
+// }
+
+function dd() {
+    let g = document.getElementById('aaaa');
+    for (var i = 0, len = g.children.length; i < len; i++) {
+        (function (index) {
+            g.getElementsByTagName('img')[i].onclick = function () {
+                showdata.splice(index, 1);
+                localStorage.setItem('myTimers', JSON.stringify(showdata));
+            };
+        })(i);
+    }
+}
+
 printtoview();
 setInterval('printtoview()', 1000);
