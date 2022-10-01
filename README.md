@@ -8,7 +8,7 @@
 
 # Try Online
 
-## <a relf="https://ya7yaq.github.io/Timerjs/">Timer</a>
+## <a href="https://ya7yaq.github.io/Timerjs/">Press Here!</a>
 
 ---
 
