@@ -6,11 +6,14 @@
 
 # Tools
 
-• JavaScript
-• Html
-• Css
-• Google for search😏
+## • JavaScript <br/>
+
+## • Html <br/>
+
+## • Css <br/>
+
+## • Google for search😏 <br/>
 
 # you like it ?
 
-PLease Give a ⭐️ 🥰
+## Please Give a ⭐️ 🥰
