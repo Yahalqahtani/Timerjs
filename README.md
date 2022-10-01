@@ -1,4 +1,4 @@
-# Timer project
+# Timer project ⌛
 
 ## 💡
 
