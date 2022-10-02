@@ -47,12 +47,6 @@ function printtoview() {
     
     `;
 }
-// function icondel(timer, i) {
-//     let r = document.getElementById('aaaa');
-//     r.addEventListener('click', () => {
-//         console.log(timer[i]);
-//     });
-// }
 
 function dd() {
     let g = document.getElementById('aaaa');
